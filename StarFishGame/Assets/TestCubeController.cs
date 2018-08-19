@@ -10,11 +10,11 @@ public class TestCubeController : MonoBehaviour
         m_player = GameObject.FindGameObjectWithTag("Player");
     }
 
+
     void OnCollisionStay(Collision other)
     {
         if (other.transform.tag == "Player")
         {
-            print("Hello");
         }
     }
 }
