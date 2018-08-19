@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ObjectCollision : MonoBehaviour {
 
-    void OnCollisionEnter()
+    void OnCollisionEnter(Collision collisionInfo)
     {
-        Debug.Log("We Hit Something!");
+        Debug.Log(collisionInfo.collider.name);
     }
 }

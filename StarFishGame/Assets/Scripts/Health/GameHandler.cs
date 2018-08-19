@@ -14,7 +14,6 @@ public class GameHandler : MonoBehaviour
             healthSystem.Damage(10);
             Debug.Log("Damaged: " + healthSystem.GetHealth());      
 
-        
             healthSystem.Heal(10);
             Debug.Log("Healed: " + healthSystem.GetHealth());
         
