@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: 7e0924ebeca06ec45afde5ac768a8b8f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Backdrop
+    100002: Closer_seaweed
+    100004: //RootNode
+    100006: Far_seaweed
+    100008: Far_seaweed2
+    100010: Fish_1
+    100012: Fish_2
+    100014: Floor
+    100016: Front_coral
+    100018: Front_seaweed
+    100020: Rock1
+    100022: Small_fish_1
+    100024: Small_fish_2
+    400000: Backdrop
+    400002: Closer_seaweed
+    400004: //RootNode
+    400006: Far_seaweed
+    400008: Far_seaweed2
+    400010: Fish_1
+    400012: Fish_2
+    400014: Floor
+    400016: Front_coral
+    400018: Front_seaweed
+    400020: Rock1
+    400022: Small_fish_1
+    400024: Small_fish_2
+    2100000: Background
+    2100002: Floor1
+    2100004: Far_seaweed3
+    2100006: Fish1
+    2100008: Closer_seaweed1
+    2100010: Farback_seaweed
+    2100012: Front_coral1
+    2100014: Small_fish2
+    2100016: Rock
+    2100018: Front_seaweed1
+    2100020: Fish2
+    2100022: Small_fish1
+    2300000: Backdrop
+    2300002: Closer_seaweed
+    2300004: Far_seaweed
+    2300006: Far_seaweed2
+    2300008: Fish_1
+    2300010: Fish_2
+    2300012: Floor
+    2300014: Front_coral
+    2300016: Front_seaweed
+    2300018: Rock1
+    2300020: Small_fish_1
+    2300022: Small_fish_2
+    3300000: Backdrop
+    3300002: Closer_seaweed
+    3300004: Far_seaweed
+    3300006: Far_seaweed2
+    3300008: Fish_1
+    3300010: Fish_2
+    3300012: Floor
+    3300014: Front_coral
+    3300016: Front_seaweed
+    3300018: Rock1
+    3300020: Small_fish_1
+    3300022: Small_fish_2
+    4300000: Backdrop
+    4300002: Floor
+    4300004: Far_seaweed2
+    4300006: Fish_1
+    4300008: Closer_seaweed
+    4300010: Far_seaweed
+    4300012: Front_coral
+    4300014: Small_fish_2
+    4300016: Rock1
+    4300018: Front_seaweed
+    4300020: Fish_2
+    4300022: Small_fish_1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
