@@ -3,38 +3,34 @@ guid: e54a728545e8be8439784a158aa8bf49
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Bone001
-    100002: Bone002
-    100004: Bone003
-    100006: Bone004
-    100008: Bone005
-    100010: Bone006
-    100012: Bone007
-    100014: Bone008
-    100016: Bone009
-    100018: Bone010
-    100020: Bone011
-    100022: Bone012
-    100024: Bone013
-    100026: polySurface2
-    100028: polySurface3
-    100030: //RootNode
-    400000: Bone001
-    400002: Bone002
-    400004: Bone003
-    400006: Bone004
-    400008: Bone005
-    400010: Bone006
-    400012: Bone007
-    400014: Bone008
-    400016: Bone009
-    400018: Bone010
-    400020: Bone011
-    400022: Bone012
-    400024: Bone013
-    400026: polySurface2
-    400028: polySurface3
-    400030: //RootNode
+    100000: Bone006
+    100002: Bone007
+    100004: Bone008
+    100006: Bone009
+    100008: Bone010
+    100010: Bone011
+    100012: Bone012
+    100014: Bone013
+    100016: Bone014
+    100018: Bone015
+    100020: Bone016
+    100022: polySurface2
+    100024: polySurface3
+    100026: //RootNode
+    400000: Bone006
+    400002: Bone007
+    400004: Bone008
+    400006: Bone009
+    400008: Bone010
+    400010: Bone011
+    400012: Bone012
+    400014: Bone013
+    400016: Bone014
+    400018: Bone015
+    400020: Bone016
+    400022: polySurface2
+    400024: polySurface3
+    400026: //RootNode
     2100000: cell
     2100002: lambert1
     4300000: polySurface3
