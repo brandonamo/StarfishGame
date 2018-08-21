@@ -12,6 +12,6 @@ public class CylinderMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         var x = Input.GetAxis("Horizontal") * Time.deltaTime * 1000.0f;
-        transform.Rotate(0, x, 0);
+        transform.Rotate(0, 0, -x);
     }
 }

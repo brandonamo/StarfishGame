@@ -1,41 +1,46 @@
 fileFormatVersion: 2
-guid: 2fd41d5ab47cc6a4fa4f2b8957496c82
+guid: e54a728545e8be8439784a158aa8bf49
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: head1
-    100002: l_arm1
-    100004: l_arm2
-    100006: l_leg1
-    100008: l_leg2
-    100010: neck1
-    100012: polySurface1
-    100014: r_arm1
-    100016: r_arm2
-    100018: r_leg1
-    100020: r_leg2
-    100022: spine1
-    100024: spine2
-    100026: //RootNode
-    400000: head1
-    400002: l_arm1
-    400004: l_arm2
-    400006: l_leg1
-    400008: l_leg2
-    400010: neck1
-    400012: polySurface1
-    400014: r_arm1
-    400016: r_arm2
-    400018: r_leg1
-    400020: r_leg2
-    400022: spine1
-    400024: spine2
-    400026: //RootNode
-    2100000: lambert1
-    4300000: polySurface1
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone005
+    100010: Bone006
+    100012: Bone007
+    100014: Bone008
+    100016: Bone009
+    100018: Bone010
+    100020: Bone011
+    100022: Bone012
+    100024: Bone013
+    100026: polySurface2
+    100028: polySurface3
+    100030: //RootNode
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone005
+    400010: Bone006
+    400012: Bone007
+    400014: Bone008
+    400016: Bone009
+    400018: Bone010
+    400020: Bone011
+    400022: Bone012
+    400024: Bone013
+    400026: polySurface2
+    400028: polySurface3
+    400030: //RootNode
+    2100000: cell
+    2100002: lambert1
+    4300000: polySurface3
     7400000: Take 001
     9500000: //RootNode
-    13700000: polySurface1
+    13700000: polySurface3
   externalObjects: {}
   materials:
     importMaterials: 1
