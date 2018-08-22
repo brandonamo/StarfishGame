@@ -8,11 +8,10 @@ public class hammer : MonoBehaviour {
     public Vector3 offset;
     public string WhatIsYourWeapon;
 
-
     public GameObject player;
     bool Attach = false;
 
-    // Use this for initialization
+    // Use this for initialization-
     void Start()
     {
 
