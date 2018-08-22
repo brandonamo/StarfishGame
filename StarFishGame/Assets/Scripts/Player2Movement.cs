@@ -25,7 +25,7 @@ public class Player2Movement : MonoBehaviour {
         {
             xdirection = 0;
         }
-        var x = xdirection * 500.0f;
+        var x = xdirection * Time.deltaTime * 100000.0f;
 
         int ydirection;
         if (Input.GetKey("up") && !Input.GetKey("down"))
@@ -40,7 +40,7 @@ public class Player2Movement : MonoBehaviour {
         {
             ydirection = 0;
         }
-        var y = ydirection * 500.0f;
+        var y = ydirection * Time.deltaTime * 100000.0f;
         Vector3 movement = new Vector3(x, y, 0);
         rb.AddForce(movement);
     }

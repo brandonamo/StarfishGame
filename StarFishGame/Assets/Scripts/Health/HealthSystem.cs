@@ -16,6 +16,7 @@ public class HealthSystem : MonoBehaviour {
 
     [Header("Unity Stuff")]
     public Image healthBar;
+    
 
     public float GetHealth()
     {

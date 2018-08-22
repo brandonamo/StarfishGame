@@ -24,7 +24,7 @@ public class Player1Movement : MonoBehaviour {
         {
             direction = 0;
         }
-        var x = direction * 500.0f;
+        var x = direction * Time.deltaTime * 100000.0f;
 
         int ydirection;
         if (Input.GetKey("w") && !Input.GetKey("s"))
@@ -39,7 +39,7 @@ public class Player1Movement : MonoBehaviour {
         {
             ydirection = 0;
         }
-        var y = ydirection * 500.0f;
+        var y = ydirection * Time.deltaTime * 100000.0f;
         Vector3 movement = new Vector3(x, y, 0);
         rb.AddForce(movement);
     }
