@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SelectionScreen : MonoBehaviour {
 
@@ -15,11 +16,11 @@ public class SelectionScreen : MonoBehaviour {
 	void Update () {
 		if(Selection >= 2)
         {
-            // Do nothing
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 	}
 
-    void AddOne()
+    public void AddOne()
     {
         Selection++;
     }
