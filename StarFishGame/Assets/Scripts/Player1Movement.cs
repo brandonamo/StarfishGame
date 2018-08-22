@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player1Movement : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+    public Rigidbody rb;
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -14,17 +14,33 @@ public class Player1Movement : MonoBehaviour {
         int direction;
         if (Input.GetKey("a") && !Input.GetKey("d"))
         {
-            direction = -1;
+            direction = 1;
         }
         else if (Input.GetKey("d") && !Input.GetKey("a"))
         {
-            direction = 1;
+            direction = -1;
         }
         else
         {
             direction = 0;
         }
-        var x = direction * Time.deltaTime * 50.0f;
-        transform.Translate(-x, 0, 0);
+        var x = direction * 500.0f;
+
+        int ydirection;
+        if (Input.GetKey("w") && !Input.GetKey("s"))
+        {
+            ydirection = 1;
+        }
+        else if (Input.GetKey("s") && !Input.GetKey("w"))
+        {
+            ydirection = -1;
+        }
+        else
+        {
+            ydirection = 0;
+        }
+        var y = ydirection * 500.0f;
+        Vector3 movement = new Vector3(x, y, 0);
+        rb.AddForce(movement);
     }
 }
