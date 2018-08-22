@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class hammer : MonoBehaviour {
 
+    HealthSystem healthSystem = new HealthSystem(100.0f);
+
     public Transform Thingy;
     public Vector3 offset;
     public string WhatIsYourWeapon;
 
     public GameObject player;
-    bool Attach = false;
+    public bool Attach = false;
 
     // Use this for initialization-
     void Start()
@@ -20,12 +22,9 @@ public class hammer : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        print(transform.position);
-
         if (Attach == true)
-        {// something like that.
-            transform.position = Thingy.position + offset;
-            transform.rotation = Thingy.rotation;
+        {
+
         }
     }
 
@@ -37,6 +36,10 @@ public class hammer : MonoBehaviour {
             Other = other;
             print("Picked up");
             Attach = true;
+        }
+        else
+        {
+            healthSystem.Damage(10.0f);
         }
     }
 }

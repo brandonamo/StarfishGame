@@ -6,6 +6,6 @@ public class ObjectCollision : MonoBehaviour {
 
     void OnCollisionEnter(Collision collisionInfo)
     {
-        Debug.Log(collisionInfo.collider.name);
+
     }
 }
