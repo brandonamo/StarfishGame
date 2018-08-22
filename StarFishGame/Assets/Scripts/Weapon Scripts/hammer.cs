@@ -9,37 +9,61 @@ public class hammer : MonoBehaviour {
     public Transform Thingy;
     public Vector3 offset;
     public string WhatIsYourWeapon;
-
+    public GameObject p1;
+    P1 player1;
+    public GameObject p2;
+    P1 player2;
     public GameObject player;
-    public bool Attach = false;
-
+    public bool Possessed;
+    public int Test = 10;
+    public bool IsPlayerOne=false;
     // Use this for initialization-
     void Start()
     {
+        p1 = GameObject.Find("starfish_reboned");
+        player1 = p1.GetComponent<P1>();
 
+        p2 = GameObject.Find("starfish_reboned (1)");
+        player2 = p2.GetComponent<P1>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Attach == true)
-        {
 
-        }
     }
 
-    Collision Other;
-    void OnCollisionEnter(Collision other)
+    void OnTriggerEnter(Collider other)
     {
-        if (other.transform.tag == "Arm" && Attach == false)
+        if (other.transform.tag == "Player2" && IsPlayerOne == true)
         {
-            Other = other;
-            print("Picked up");
-            Attach = true;
+            print("Hit Player 2");
+            player2.attacked = true;
         }
-        else
+        if (other.transform.tag == "Player" && Possessed == false)
         {
-            healthSystem.Damage(10.0f);
+            print("Player1 possession");
+            Possessed = true;
+            IsPlayerOne = true;
         }
+        if (other.transform.tag == "Player" && IsPlayerOne == false)
+        {
+            print("Hit Player 1");
+            player1.attacked = true;
+        }
+        else if (other.transform.tag == "Player2" && Possessed == false)
+        {
+            print("Player2 possession");
+            Possessed = true;
+            IsPlayerOne = false;
+        }
+
+
+        //if (other.transform.tag == "Arm" && Attach == false)
+        //{
+        //    Other = other;
+        //    print("Picked up");
+        //    Attach = true;
+        //}
     }
 }

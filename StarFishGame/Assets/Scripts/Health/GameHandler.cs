@@ -6,12 +6,12 @@ public class GameHandler : MonoBehaviour
 {
     private void Start()
     {
-        HealthSystem healthSystem = new HealthSystem(100);
-
-        Debug.Log("Health: " + healthSystem.GetHealth());
-        
-        healthSystem.Damage(10.0f);
-        Debug.Log("Damaged: " + healthSystem.GetHealth());      
+       // HealthSystem healthSystem = new HealthSystem(100);
+       //
+       // Debug.Log("Health: " + healthSystem.GetHealth());
+       // 
+       // healthSystem.Damage(10.0f);
+       // Debug.Log("Damaged: " + healthSystem.GetHealth());      
 
     }
 }
