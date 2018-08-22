@@ -202,7 +202,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OtherItem: {fileID: 1282750321}
   offsetRotation: {fileID: 0}
-  HammerAttach: 0
 --- !u!1 &132028026 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100014, guid: e54a728545e8be8439784a158aa8bf49,
@@ -221,7 +220,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OtherItem: {fileID: 1282750321}
   offsetRotation: {fileID: 0}
-  HammerAttach: 0
 --- !u!144 &132028029
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -432,7 +430,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OtherItem: {fileID: 1282750321}
   offsetRotation: {fileID: 0}
-  HammerAttach: 0
 --- !u!144 &375521720
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -1032,7 +1029,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OtherItem: {fileID: 1282750321}
   offsetRotation: {fileID: 0}
-  HammerAttach: 0
 --- !u!144 &832443972
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -1474,7 +1470,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OtherItem: {fileID: 1282750321}
   offsetRotation: {fileID: 0}
+<<<<<<< HEAD:StarFishGame/Assets/Scenes/SampleScene.unity
+=======
   HammerAttach: 0
+>>>>>>> 28194c38524de10ebf15b883d16921ccf54eab9e:StarFishGame/Assets/Scenes/SampleScene 1.unity
 --- !u!1 &1282750319 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: f982eb0b63e2137498282739544046a7,
@@ -1527,7 +1526,6 @@ MonoBehaviour:
   offset: {x: 0, y: 0, z: 0}
   WhatIsYourWeapon: 
   player: {fileID: 0}
-  Attach: 0
 --- !u!1001 &1337177209
 Prefab:
   m_ObjectHideFlags: 0
@@ -1864,7 +1862,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OtherItem: {fileID: 1282750321}
   offsetRotation: {fileID: 0}
-  HammerAttach: 0
 --- !u!144 &1595544811
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -2152,7 +2149,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OtherItem: {fileID: 1282750321}
   offsetRotation: {fileID: 0}
-  HammerAttach: 0
 --- !u!1 &1734825675 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: e54a728545e8be8439784a158aa8bf49,
@@ -2370,7 +2366,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OtherItem: {fileID: 1282750321}
   offsetRotation: {fileID: 0}
-  HammerAttach: 0
 --- !u!1 &1903376865 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100008, guid: e54a728545e8be8439784a158aa8bf49,
@@ -2453,7 +2448,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OtherItem: {fileID: 1282750321}
   offsetRotation: {fileID: 0}
-  HammerAttach: 0
 --- !u!144 &1915558780
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -2664,4 +2658,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OtherItem: {fileID: 1282750321}
   offsetRotation: {fileID: 0}
-  HammerAttach: 0
