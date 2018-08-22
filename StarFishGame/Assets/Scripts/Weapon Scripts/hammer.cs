@@ -33,6 +33,7 @@ public class hammer : MonoBehaviour {
     {
         if (other.transform.tag == "Arm" && Attach == false)
         {
+            FindObjectOfType<AudioMgr>().Play("pick_up");
             Other = other;
             print("Picked up");
             Attach = true;
