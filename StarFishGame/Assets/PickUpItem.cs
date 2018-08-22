@@ -6,6 +6,7 @@ public class PickUpItem : MonoBehaviour {
 
     public Transform OtherItem;
     public Transform offsetRotation;
+    public bool HammerAttach;
     // Use this for initialization
     void Start () {
 
@@ -17,9 +18,8 @@ public class PickUpItem : MonoBehaviour {
         if (Attach == true)
         {
             OtherItem.Rotate(Vector3.right * Time.deltaTime);
-            print("OtherPickUp");
             OtherItem.position = transform.position;
-            OtherItem.rotation = transform.rotation ;
+            OtherItem.rotation = transform.rotation;
         }
 	}
 
@@ -27,7 +27,6 @@ public class PickUpItem : MonoBehaviour {
     {
         if (other.transform.tag == "Weapon" && Attach == false)
         {
-            print("Hello");
             Attach = true;
         }
     }

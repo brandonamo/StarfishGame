@@ -1,31 +1,45 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class HealthSystem {
+public class HealthSystem : MonoBehaviour {
 
-    private int health;
-    private int healthMax;
+    private float health;
+    public float healthMax;
 
-    public HealthSystem(int health)
+    public HealthSystem(float MaxHealth)
     {
-        this.healthMax = healthMax;
-        health = healthMax;
+        this.healthMax = MaxHealth;
+        health = MaxHealth;
     }
-    
 
-    public int GetHealth()
+    [Header("Unity Stuff")]
+    public Image healthBar;
+
+    public float GetHealth()
     {
         return health;
     }
 
-    public void Damage(int damageAmount)
+    public void Damage(float damageAmount)
     {
         health -= damageAmount;
-        if (health < 0) health = 0;
+
+        healthBar.fillAmount = health/healthMax;
+
+        if (health < 0)
+        {
+            health = 0;
+            //print("Youa are dead");
+        }
     }
-    public void Heal(int healAmount)
+
+    void OnCollisionEnter(Collision other)
     {
-        health += healAmount;
+        if (other.transform.tag == "Weapon")
+        {
+            print("Hello");
+        }
     }
 }
