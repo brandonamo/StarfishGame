@@ -11,13 +11,20 @@ public class Player1Movement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        var x = Input.GetAxis("Horizontal") * Time.deltaTime * 50.0f;
-        transform.Translate(-x, 0, 0);
-        var y = Input.GetAxis("Vertical") * Time.deltaTime * 200.0f;
-
-        if (y > 0)
+        int direction;
+        if (Input.GetKey("a") && !Input.GetKey("d"))
         {
-            transform.Translate(0, y, 0);
+            direction = -1;
         }
+        else if (Input.GetKey("d") && !Input.GetKey("a"))
+        {
+            direction = 1;
+        }
+        else
+        {
+            direction = 0;
+        }
+        var x = direction * Time.deltaTime * 50.0f;
+        transform.Translate(-x, 0, 0);
     }
 }
